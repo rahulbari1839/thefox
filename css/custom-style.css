@@ -862,3 +862,30 @@ background-color: #f44336;
     height: 20px;
 }
 }
+
+/*****Our customers review ***************/
+.review .review-heading h2 {
+  font-size: 36px;
+  color: #5a5454;
+}
+.review .review-heading h2 span{
+    color: #3d37f1;
+}
+.review p{
+  color: #747474;
+  font-size:16px;
+}
+.review h3{
+  color:  #5a5454;
+  font-size:26px;
+}
+.review .checked {
+  color: #3d37f1;
+}
+.review .fa{
+    font-size: 16px;
+    letter-spacing: 4px;
+}
+.review .review-post{
+  color: #4b647e;
+}
