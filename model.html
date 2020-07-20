@@ -1,0 +1,3215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>index</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+	<link rel="stylesheet" type="text/css" href="https://harvesthq.github.io/chosen/chosen.css">
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/custom-style.css">
+
+	<style>
+		.dataDiv:not(:first-of-type) {
+			display: none;
+			/* visibility: hidden;
+			position: absolute; */
+		}
+	</style>
+</head>
+
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-12">
+					<div class="header_logo">
+						<a href="">
+							<img src="images/nav-icon.png" alt="nav icon">
+							<img class="the_fox_loo" src="images/thefox.png" alt="thefox"></a>
+					</div>
+					<div class="month_nfo">
+						<p>January 2020 <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+						<h1>Earnings Report</h1>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-12">
+					<div class="header_right">
+						<a class="header_icons" href=""><img src="images/header_icons.png" alt="header_icons"></a>
+						<a class="hire_bttn" href="javascript:void(0)" data-toggle="modal" data-target="#hire_popup_modal" >Hire</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="ul_tab">
+			<ul>
+				<li class="tab_active"><a href="">Earning Report</a></li>
+				<li><a href="">Analytics</a></li>
+			</ul>
+		</div>
+	</header>
+
+	<section class="page_father">
+		<section class="page_wrapper">
+			<div class="page_row">
+				<div class="left_side_bar">
+					<div class="user_info">
+						<img src="images/man.png" alt="user">
+						<p>Henry Jabbawockiez <i class="fa fa-angle-down" aria-hidden="true"></i></p>
+					</div>
+					<div class="mobile_errow" style="display:none"><i class="fa fa-angle-right" aria-hidden="true"></i>
+					</div>
+					<div class="left_navigation">
+
+						<ul>
+							<li>
+								<a class="rept active" href="home.html">
+									<i class="fa fa-th-large" aria-hidden="true"></i>
+									<span>HOME</span>
+								</a>
+							</li>
+							<li class="">
+								<a class="rept" href="#google">
+									<i class="fa fa-commenting" aria-hidden="true"></i>
+									<span>CHAT</span>
+								</a>
+							</li>
+							<li class="">
+								<a class="rept" href="index.html">
+									<i class="fa fa-user-md" aria-hidden="true"></i>
+									<span>CONTACT</span>
+								</a>
+							</li>
+							<li class="">
+								<a class="rept" href="index.html">
+									<i class="fa fa-bell-o" aria-hidden="true"></i>
+									<span>NOTIFICATIONS</span>
+								</a>
+							</li>
+							<li class="">
+								<a class="rept" href="index.html">
+									<i class="fa fa-calendar" aria-hidden="true"></i>
+									<span>CALENDAR</span>
+								</a>
+							</li>
+							<li class="">
+								<a class="rept" href="index.html">
+									<i class="fa fa-cog" aria-hidden="true"></i>
+									<span>SETTINGS</span>
+								</a>
+							</li>
+						</ul>
+						<div class="hire_list_btn">
+							<a class="hire_a" href="">Hire</a>
+							<a class="logout_btn" href=""><i class="fa fa-power-off" aria-hidden="true"></i> Logout</a>
+						</div>
+					</div>
+				</div>
+				<div class="right_side_bar">
+					<div class="slide_info targetDiv" id="div1">
+						<div class="email_upload">
+							<div class="upload-btn-wrapper">
+								<img src="images/kids.png" alt="kids img">
+								<button class="btn">Upload</button>
+
+							</div>
+							<div class="email_div">
+								<input type="text" placeholder="www.airsuggest.com/">
+								<span><button class="btn email"><img src="images/file_icon.png"
+											alt="file_icon"></button></span>
+							</div>
+							<div class="verify_acc">
+								<p>To get verified put this link in your Bio</p>
+								<div class="verify_btn">
+									<div class="upload-btn-wrapper color_blue">
+										<button id="file_id" class="btn"><i class="fa fa-file-text"
+												aria-hidden="true"></i> Files(x2)</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_pink">
+										<button id="Photo_id" class="btn"><i class="fa fa-picture-o"
+												aria-hidden="true"></i> Photo</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_green">
+										<button id="Video_id" class="btn"><i class="fa fa-file-video-o"
+												aria-hidden="true"></i> Video(x3)</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="patreon_banner">
+							<img src="images/patreon.png" alt="patreon">
+						</div>
+						<div class="recomended_slider class_for_btns">
+							<div class="recomend_slide">
+								<div class="reco_iner">
+									<h2>Recommended</h2>
+									<div class="reco_img">
+										<img src="images/acc_MAN.png" alt="images">
+									</div>
+								</div>
+							</div>
+							<div class="recomend_slide">
+								<div class="reco_iner">
+									<h2>Recommended</h2>
+									<div class="reco_img">
+										<img src="images/acc_MAN.png" alt="images">
+									</div>
+								</div>
+							</div>
+							<div class="recomend_slide">
+								<div class="reco_iner">
+									<h2>Recommended</h2>
+									<div class="reco_img">
+										<img src="images/acc_MAN.png" alt="images">
+									</div>
+								</div>
+							</div>
+							<div class="recomend_slide">
+								<div class="reco_iner">
+									<h2>Recommended</h2>
+									<div class="reco_img">
+										<img src="images/acc_MAN.png" alt="images">
+									</div>
+								</div>
+							</div>
+							<div class="recomend_slide">
+								<div class="reco_iner">
+									<h2>Recommended</h2>
+									<div class="reco_img">
+										<img src="images/acc_MAN.png" alt="images">
+									</div>
+								</div>
+							</div>
+							<div class="recomend_slide">
+								<div class="reco_iner">
+									<h2>Recommended</h2>
+									<div class="reco_img">
+										<img src="images/acc_MAN.png" alt="images">
+									</div>
+								</div>
+							</div>
+							<div class="recomend_slide">
+								<div class="reco_iner">
+									<h2>Recommended</h2>
+									<div class="reco_img">
+										<img src="images/acc_MAN.png" alt="images">
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!---------------Chat------------->
+
+						<div class="row pt-4 chat-container">
+							<div class="col-md-5" id="chat">
+								<div class="chat-header">
+									<div class="crate_btns">
+										<span class="display-4 float-left">Chats <i class="fa fa-angle-down" aria-hidden="true"></i></span>
+										<button><i class="fa fa-plus" aria-hidden="true"></i> Create New Chat</button>
+									</div>
+									<form class="chat-form">
+									  <div class="input-group top-search">
+									   
+									     <i class="fa fa-search"></i>
+									    
+									    <input type="text" class="form-control" placeholder="Search">
+									    <div class="form-group">
+										<!--   <label for="sel1">Messages</label> -->
+										  <select class="form-control" id="sel1">
+										    <option>Messages</option>
+										    <option>2</option>
+										    <option>3</option>
+										    <option>4</option>
+										  </select>
+										</div>
+									  </div>
+									</form>
+								</div>
+								<div class="chat-box">
+										<img src="images/asset-11.png" class="rounded-circle">
+									<div class="d-inline-block pl-4 chat-name">
+										<h2>Luy Robin</h2>
+										<h4 class="text-primary pt-2 write"><i class="fa fa-ellipsis-h"></i> writes</h4>
+									</div>
+									<div class="chat-time float-right"> 1 Minuts ago</div>
+									<div class="row mt-4">
+										<div class="col-sm-10">
+											<p class="pt-4">MOst of its text is made up from sections 1.10.32–3 of CIcero's DE finibus BOnorum et malorum (ON the Boundaries of GOods and EVils; finibus may also be translated as purposes). </p>
+										</div>
+										<div class="col-sm-2">
+											<span class="badge badge-pill badge-danger">2</span>
+										</div>
+
+									</div>
+								</div>
+
+
+								<div class="chat-box">
+										<img src="images/asset-10.png" class="rounded-circle">
+									<div class="d-inline-block pl-4 chat-name">
+										<h2>Jared Sunn</h2>
+										<h4 class="text-primary pt-2 write"><i class="fa fa-microphone"></i> records voice message</h4>
+									</div>
+									<div class="chat-time float-right"> 1 Minuts ago</div>
+									<div class="row mt-4">
+										<div class="col-sm-10">
+											<div class="verify_acc">
+												<p><i class="fa fa-microphone"></i> Voice message (01:15) </p>
+												<div class="verify_btn">
+													<div class="upload-btn-wrapper color_blue">
+														<button id="file_id" class="btn"><i class="fa fa-file-text" aria-hidden="true"></i> Files(x2)</button>
+
+													</div>
+													<div class="upload-btn-wrapper color_pink">
+														<button id="Photo_id" class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i> Photo</button>
+
+													</div>
+													
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-2">
+											<span class="badge badge-pill badge-danger">1</span>
+										</div>
+									</div>
+								</div>
+
+								<div class="chat-box active">
+										<img src="images/asset-9.png" class="rounded-circle">
+									<div class="d-inline-block pl-4 chat-name">
+										<h2>Nika Jerrardo</h2>
+										<h4 class="text-primary pt-2 write">last online 5 hours ago</h4>
+									</div>
+									<div class="chat-time float-right">3 days ago</div>
+									<div class="row mt-4">
+										<div class="col-sm-10">
+											<p>Cicero Famously Orated Against His Political Opponent Lucius Sergius Catilina.</p>
+										</div>
+										<div class="col-sm-2">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-7">
+								<div class="rectangle">
+									<div class="rectangle-header">
+										<div class="d-inline-block rectangle-name">
+											<h2>Nika Jerrardo</h2>
+											<h4 class="text-primary pt-2 write">last online 5 hours ago</h4>
+										</div>
+										<div class="d-inline-block rectangle-head-icon">
+											<i class="fa fa-paperclip"></i>
+											<i class="fa fa-ellipsis-v"></i>	
+										</div>
+									</div>
+									<div class="rectangle-box">
+										<div class="rectangle-chat">
+											<p>HEllo! FInally found the time to write to you) I need your help in creating interactive animations for my mobile application.</p>
+
+										</div>
+										<div class="d-inline-block action-icon">
+											<i class="fa fa-ellipsis-h"></i>
+										</div>
+									</div>
+									<div class="rectangle-box">
+										<div class="rectangle-chat">
+											<p>Can I send you files?</p>
+
+										</div>
+										<div class="d-inline-block action-icon">
+											<i class="fa fa-ellipsis-h"></i>
+										</div>
+									</div>
+									<div class="rectangle-box">
+										<div class="text-right">
+											<div class="d-inline-block action-icon">
+												<i class="fa fa-ellipsis-h"></i>
+											</div>
+											<div class="square-chat">
+												<p>HEy! OKay, send out.</p>
+											</div>
+											<div class="d-inline-block check-icon">
+												<i class="fa fa-check"></i>
+											</div>
+										</div>
+									</div>
+									<div class="rectangle-box">
+										<div class="rectangle-chat">
+											<p> <i class="fa fa-file"></i> Style.zip</p>
+
+										</div>
+										<div class="d-inline-block action-icon">
+											<i class="fa fa-ellipsis-h"></i>
+										</div>
+									</div>
+									<hr>
+									<div class="rectangle-box">
+										<div class="text-right">
+											<div class="d-inline-block action-icon">
+												<i class="fa fa-ellipsis-h"></i>
+											</div>
+											<div class="square-chat">
+												<p>Hello! I Tweaked Everything You Asked. I Am Sending The Finished File.</p>
+													<a href="#" class="float-right"> (52.05 Mb) <i class="fa fa-file"></i></a>
+											</div>
+											<div class="d-inline-block check-icon">
+												<i class="fa fa-check"></i>
+											</div>
+										</div>
+									</div>
+									<div class="rectangle-box">
+										<div class="rectangle-chat">
+											<p>HEllo! FInally found the time to write to you) I need your help in creating interactive animations for my mobile application.</p>
+
+										</div>
+										<div class="d-inline-block action-icon">
+											<i class="fa fa-ellipsis-h"></i>
+										</div>
+									</div>
+									<div class="rectangle-box">
+										<div class="rectangle-chat">
+											<p>Can I send you files?</p>
+
+										</div>
+										<div class="d-inline-block action-icon">
+											<i class="fa fa-ellipsis-h"></i>
+										</div>
+									</div>
+									<div class="rectangle-box">
+										<div class="text-right">
+											<div class="d-inline-block action-icon">
+												<i class="fa fa-ellipsis-h"></i>
+											</div>
+											<div class="square-chat">
+												<p>HEy! OKay, send out.</p>
+											</div>
+											<div class="d-inline-block check-icon">
+												<i class="fa fa-check"></i>
+											</div>
+										</div>
+									</div>
+									<div class="rectangle-box">
+										<div class="rectangle-chat">
+											<p> <i class="fa fa-file"></i> Style.zip</p>
+
+										</div>
+										<div class="d-inline-block action-icon">
+											<i class="fa fa-ellipsis-h"></i>
+										</div>
+									</div>
+									<hr>
+									<div class="rectangle-box">
+										<div class="text-right">
+											<div class="d-inline-block action-icon">
+												<i class="fa fa-ellipsis-h"></i>
+											</div>
+											<div class="square-chat">
+												<p>Hello! I Tweaked Everything You Asked. I Am Sending The Finished File.</p>
+													<a href="#" class="float-right"> (52.05 Mb) <i class="fa fa-file"></i></a>
+											</div>
+											<div class="d-inline-block check-icon">
+												<i class="fa fa-check"></i>
+											</div>
+										</div>
+									</div>
+									<div class="type-message">
+										<div class="form-group">
+										  <input type="text" class="form-control"  placeholder="Type A Message Here" id="type-message">
+										</div>
+										<div class="sending"><i class="fa fa-paper-plane sending-right-btn"></i></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="crate_task_block" id="google">
+							<div class="task_heading">
+								<h4><i class="fa fa-suitcase" aria-hidden="true"></i> Create a task</h4>
+								<form>
+									<div class="form_field">
+										<label>What brand categories am I willing to auto accept</label>
+										<div id="output"></div>
+										<select data-placeholder="Choose tags ..." name="tags[]" multiple
+											class="chosen-select">
+											<option value="Engineering">Button Component</option>
+											<option value="Carpentry">Button Component</option>
+											<option value="Plumbing">Button Component</option>
+											<option value="Electical">Button Component</option>
+											<option value="Mechanical">Button Component</option>
+											<option value="HVAC">Button Component</option>
+										</select>
+									</div>
+									<div class="form_field">
+										<label>Categories of your content </label>
+										<div class="date_piker">
+											<input type="text" id="datepicker">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="form_field extra_margin">
+										<label>Price for each social mediaa</label>
+										<input type="text">
+									</div>
+									<div class="form_field ">
+										<label>Social media</label>
+										<div class="social_box">
+											<div class="social_left">
+												<input type="text">
+											</div>
+											<div class="social_right">
+												<input type="text">
+											</div>
+										</div>
+										<div class="social_box">
+											<div class="social_left">
+												<input type="text">
+											</div>
+											<div class="social_right">
+												<input type="text">
+											</div>
+										</div>
+										<div class="social_box">
+											<div class="social_left"><input type="text"></div>
+											<div class="social_right"><input type="text"></div>
+										</div>
+									</div>
+									<div class="form_field">
+										<label>What level of brand you wanna show your prices to </label>
+										<label class="control control--checkbox"><b>Any Brand - we make sure that they
+												are brand email check</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												1 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												10 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												100 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+									</div>
+								</form>
+								<div class="verify_btn">
+									<div class="upload-btn-wrapper color_blue">
+										<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+											Files(x2)</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_pink">
+										<button class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i>
+											Photo</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_green">
+										<button class="btn"><i class="fa fa-file-video-o" aria-hidden="true"></i>
+											Video(x3)</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="slide_info targetDiv" id="div2" style="display: none;">
+						<div class="email_upload">
+							<div class="upload-btn-wrapper">
+								<img src="images/kids.png" alt="kids img">
+								<button class="btn">Upload 2</button>
+
+							</div>
+							<div class="email_div">
+								<input type="text" placeholder="www.airsuggest.com/">
+								<span><img src="images/file_icon.png" alt="file_icon"></span>
+							</div>
+							<div class="verify_acc">
+								<p>To get verified put this link in your Bio</p>
+								<div class="verify_btn">
+									<div class="upload-btn-wrapper color_blue">
+										<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+											Files(x2)</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_pink">
+										<button class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i>
+											Photo</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_green">
+										<button class="btn"><i class="fa fa-file-video-o" aria-hidden="true"></i>
+											Video(x3)</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="logo_slider class_for_btns">
+							<div class="logo_div">
+								<img src="images/insta.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/qicon.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/sc.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/whatsup.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/twish.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/twitter.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/youube.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/slack.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/cat.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/insta.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/qicon.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/sc.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/whatsup.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/twish.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/twitter.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/youube.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/slack.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/cat.png" alt="logo image">
+							</div>
+						</div>
+						<div class="serch_section">
+							<div class="crate_btns">
+								<button><i class="fa fa-plus" aria-hidden="true"></i> Create New Chat</button>
+							</div>
+							<div class="serch_slider class_for_btns">
+								<div class="serch_row">
+									<div class="serch_left">
+										<div class="serch_fields">
+											<div class="serch_inpu">
+												<input type="text" placeholder="Search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+										</div>
+										<div class="verify_btn">
+											<div class="upload-btn-wrapper color_blue">
+												<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+													Files(x2)</button>
+
+											</div>
+											<div class="upload-btn-wrapper color_green">
+												<button class="btn"><i class="fa fa-file-video-o"
+														aria-hidden="true"></i> Video(x3)</button>
+
+											</div>
+										</div>
+									</div>
+									<div class="serch_right">
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="serch_row">
+
+									<div class="serch_left">
+										<div class="serch_fields">
+											<div class="serch_inpu">
+												<input type="text" placeholder="Search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+										</div>
+										<div class="verify_btn">
+											<div class="upload-btn-wrapper color_blue">
+												<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+													Files(x2)</button>
+
+											</div>
+											<div class="upload-btn-wrapper color_green">
+												<button class="btn"><i class="fa fa-file-video-o"
+														aria-hidden="true"></i> Video(x3)</button>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="serch_right">
+
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="serch_row">
+									<div class="serch_left">
+										<div class="serch_fields">
+											<div class="serch_inpu">
+												<input type="text" placeholder="Search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+										</div>
+										<div class="verify_btn">
+											<div class="upload-btn-wrapper color_blue">
+												<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+													Files(x2)</button>
+
+											</div>
+											<div class="upload-btn-wrapper color_green">
+												<button class="btn"><i class="fa fa-file-video-o"
+														aria-hidden="true"></i> Video(x3)</button>
+
+											</div>
+										</div>
+									</div>
+									<div class="serch_right">
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="multipla_men class_for_btns">
+								<div class="man_slider">
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+								</div>
+								<div class="man_slider">
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+								</div>
+								<div class="man_slider">
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="small_gallry_block class_for_btns">
+							<div class="galler_slider">
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img1.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img3.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>background: rgba(158, 184, 106, 0.71);</h3>
+										<p><span>80k views · 5 months ago</span> <span>Dollie Blair</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img4.png" alt="man image">
+										<span>5:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Selecting The Right Hotel</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img5.png" alt="man image">
+										<span>2:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Asteroids</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img6.png" alt="man image">
+										<span>6:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Telescopes 101</h3>
+										<p><span>11k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img1.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img3.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>background: rgba(158, 184, 106, 0.71);</h3>
+										<p><span>80k views · 5 months ago</span> <span>Dollie Blair</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img4.png" alt="man image">
+										<span>5:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Selecting The Right Hotel</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img5.png" alt="man image">
+										<span>2:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Asteroids</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img6.png" alt="man image">
+										<span>6:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Telescopes 101</h3>
+										<p><span>11k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="galler_slider">
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+
+
+
+							</div>
+						</div>
+						<div class="recomended_block">
+							<div class="recomended_title">
+								<h4>Recommended</h4>
+							</div>
+							<div class="recomended_slider class_for_btns ">
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/Cover-imgman.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img8.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img9.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/Cover-imgman.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img8.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img9.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="crate_task_block">
+							<div class="task_heading">
+								<h4><i class="fa fa-suitcase" aria-hidden="true"></i> Create a task</h4>
+								<form>
+									<div class="form_field">
+										<label>What brand categories am I willing to auto accept</label>
+										<div id="output1"></div>
+										<select data-placeholder="Choose tags ..." name="tags[]" multiple
+											class="chosen-select">
+											<option value="Engineering">Button Component</option>
+											<option value="Carpentry">Button Component</option>
+											<option value="Plumbing">Button Component</option>
+											<option value="Electical">Button Component</option>
+											<option value="Mechanical">Button Component</option>
+											<option value="HVAC">Button Component</option>
+										</select>
+									</div>
+									<div class="form_field">
+										<label>Categories of your content </label>
+										<div class="date_piker">
+											<input type="text" id="datepicker1">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="form_field extra_margin">
+										<label>Price for each social mediaa</label>
+										<input type="text">
+									</div>
+									<div class="form_field ">
+										<label>Social media</label>
+										<div class="social_box">
+											<div class="social_left"><input type="text"></div>
+											<div class="social_right"><input type="text"></div>
+										</div>
+										<div class="social_box">
+											<div class="social_left"><input type="text"></div>
+											<div class="social_right"></div>
+										</div>
+										<div class="social_box">
+											<div class="social_left"><input type="text"></div>
+											<div class="social_right"><input type="text"></div>
+										</div>
+									</div>
+									<div class="form_field">
+										<label>What level of brand you wanna show your prices to </label>
+										<label class="control control--checkbox"><b>Any Brand - we make sure that they
+												are brand email check</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												1 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												10 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												100 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+									</div>
+								</form>
+								<div class="verify_btn">
+									<div class="upload-btn-wrapper color_blue">
+										<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+											Files(x2)</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_pink">
+										<button class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i>
+											Photo</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_green">
+										<button class="btn"><i class="fa fa-file-video-o" aria-hidden="true"></i>
+											Video(x3)</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="slide_info targetDiv" id="div3" style="display: none;">
+						<div class="email_upload">
+							<div class="upload-btn-wrapper">
+								<img src="images/kids.png" alt="kids img">
+								<button class="btn">Upload 3</button>
+
+							</div>
+							<div class="email_div">
+								<input type="text" placeholder="www.airsuggest.com/">
+								<span><img src="images/file_icon.png" alt="file_icon"></span>
+							</div>
+							<div class="verify_acc">
+								<p>To get verified put this link in your Bio</p>
+								<div class="verify_btn">
+									<div class="upload-btn-wrapper color_blue">
+										<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+											Files(x2)</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_pink">
+										<button class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i>
+											Photo</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_green">
+										<button class="btn"><i class="fa fa-file-video-o" aria-hidden="true"></i>
+											Video(x3)</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="logo_slider class_for_btns">
+							<div class="logo_div">
+								<img src="images/insta.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/qicon.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/sc.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/whatsup.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/twish.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/twitter.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/youube.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/slack.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/cat.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/insta.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/qicon.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/sc.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/whatsup.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/twish.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/twitter.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/youube.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/slack.png" alt="logo image">
+							</div>
+							<div class="logo_div">
+								<img src="images/cat.png" alt="logo image">
+							</div>
+						</div>
+						<div class="serch_section">
+							<div class="crate_btns">
+								<button><i class="fa fa-plus" aria-hidden="true"></i> Create New Chat</button>
+							</div>
+							<div class="serch_slider class_for_btns">
+								<div class="serch_row">
+									<div class="serch_left">
+										<div class="serch_fields">
+											<div class="serch_inpu">
+												<input type="text" placeholder="Search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+										</div>
+										<div class="verify_btn">
+											<div class="upload-btn-wrapper color_blue">
+												<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+													Files(x2)</button>
+
+											</div>
+											<div class="upload-btn-wrapper color_green">
+												<button class="btn"><i class="fa fa-file-video-o"
+														aria-hidden="true"></i> Video(x3)</button>
+
+											</div>
+										</div>
+									</div>
+									<div class="serch_right">
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="serch_row">
+
+									<div class="serch_left">
+										<div class="serch_fields">
+											<div class="serch_inpu">
+												<input type="text" placeholder="Search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+										</div>
+										<div class="verify_btn">
+											<div class="upload-btn-wrapper color_blue">
+												<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+													Files(x2)</button>
+
+											</div>
+											<div class="upload-btn-wrapper color_green">
+												<button class="btn"><i class="fa fa-file-video-o"
+														aria-hidden="true"></i> Video(x3)</button>
+
+											</div>
+										</div>
+									</div>
+
+									<div class="serch_right">
+
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+
+									</div>
+								</div>
+								<div class="serch_row">
+									<div class="serch_left">
+										<div class="serch_fields">
+											<div class="serch_inpu">
+												<input type="text" placeholder="Search">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+											<div class="serch_inpu">
+												<input type="text" placeholder="Link">
+												<i class="fa fa-search" aria-hidden="true"></i>
+											</div>
+										</div>
+										<div class="verify_btn">
+											<div class="upload-btn-wrapper color_blue">
+												<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+													Files(x2)</button>
+
+											</div>
+											<div class="upload-btn-wrapper color_green">
+												<button class="btn"><i class="fa fa-file-video-o"
+														aria-hidden="true"></i> Video(x3)</button>
+
+											</div>
+										</div>
+									</div>
+									<div class="serch_right">
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+										<div class="serch_img_info">
+											<img src="images/cover_img1.png" alt="image">
+											<div class="serch_fields">
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+												<div class="serch_inpu">
+													<input type="text" placeholder="Search">
+													<i class="fa fa-search" aria-hidden="true"></i>
+												</div>
+											</div>
+											<div class="verify_btn">
+												<div class="upload-btn-wrapper color_blue">
+													<button class="btn"><i class="fa fa-file-text"
+															aria-hidden="true"></i> Files(x2)</button>
+
+												</div>
+												<div class="upload-btn-wrapper color_green">
+													<button class="btn"><i class="fa fa-file-video-o"
+															aria-hidden="true"></i> Video(x3)</button>
+
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="multipla_men class_for_btns">
+								<div class="man_slider">
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+								</div>
+								<div class="man_slider">
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+								</div>
+								<div class="man_slider">
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+											<span>3:40</span>
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+											<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+									<div class="man_box">
+										<div class="man_img">
+											<img src="images/cover_img.png" alt="man image">
+										</div>
+										<div class="man_info">
+											<h3>Dude You Re Getting A Telescope</h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="small_gallry_block class_for_btns">
+							<div class="galler_slider">
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img1.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img3.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>background: rgba(158, 184, 106, 0.71);</h3>
+										<p><span>80k views · 5 months ago</span> <span>Dollie Blair</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img4.png" alt="man image">
+										<span>5:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Selecting The Right Hotel</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img5.png" alt="man image">
+										<span>2:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Asteroids</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img6.png" alt="man image">
+										<span>6:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Telescopes 101</h3>
+										<p><span>11k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img1.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img3.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>background: rgba(158, 184, 106, 0.71);</h3>
+										<p><span>80k views · 5 months ago</span> <span>Dollie Blair</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img4.png" alt="man image">
+										<span>5:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Selecting The Right Hotel</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img5.png" alt="man image">
+										<span>2:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Asteroids</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img6.png" alt="man image">
+										<span>6:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Telescopes 101</h3>
+										<p><span>11k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+							</div>
+							<div class="galler_slider">
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+
+
+
+							</div>
+						</div>
+						<div class="recomended_block">
+							<div class="recomended_title">
+								<h4>Recommended</h4>
+							</div>
+							<div class="recomended_slider class_for_btns ">
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/Cover-imgman.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img8.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img9.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/Cover-imgman.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img8.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+								<div class="man_box">
+									<div class="man_img">
+										<img src="images/cover_img9.png" alt="man image">
+										<span>3:40</span>
+									</div>
+									<div class="man_info">
+										<h3>Dude You Re Getting A Telescope</h3>
+										<p><span>34k views · 5 months ago</span> <span>Gussie French</span></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="crate_task_block">
+							<div class="task_heading">
+								<h4><i class="fa fa-suitcase" aria-hidden="true"></i> Create a task</h4>
+								<form>
+									<div class="form_field">
+										<label>What brand categories am I willing to auto accept</label>
+										<div id="output2"></div>
+										<select data-placeholder="Choose tags ..." name="tags[]" multiple
+											class="chosen-select">
+											<option value="Engineering">Button Component</option>
+											<option value="Carpentry">Button Component</option>
+											<option value="Plumbing">Button Component</option>
+											<option value="Electical">Button Component</option>
+											<option value="Mechanical">Button Component</option>
+											<option value="HVAC">Button Component</option>
+										</select>
+									</div>
+									<div class="form_field">
+										<label>Categories of your content </label>
+										<div class="date_piker">
+											<input type="text" id="datepicker2">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="form_field extra_margin">
+										<label>Price for each social mediaa</label>
+										<input type="text">
+									</div>
+									<div class="form_field ">
+										<label>Social media</label>
+										<div class="social_box">
+											<div class="social_left"><input type="text"></div>
+											<div class="social_right"></div>
+										</div>
+										<div class="social_box">
+											<div class="social_left"><input type="text"></div>
+											<div class="social_right"><input type="text"></div>
+										</div>
+										<div class="social_box">
+											<div class="social_left"><input type="text"></div>
+											<div class="social_right"><input type="text"></div>
+										</div>
+									</div>
+									<div class="form_field">
+										<label>What level of brand you wanna show your prices to </label>
+										<label class="control control--checkbox"><b>Any Brand - we make sure that they
+												are brand email check</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												1 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												10 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												100 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+									</div>
+								</form>
+								<div class="verify_btn">
+									<div class="upload-btn-wrapper color_blue">
+										<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+											Files(x2)</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_pink">
+										<button class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i>
+											Photo</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_green">
+										<button class="btn"><i class="fa fa-file-video-o" aria-hidden="true"></i>
+											Video(x3)</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+	</section>
+	<div id="Photo_popup_slide">
+		<div class="task_popup">
+			<div class="crate_task_block">
+				<div id="close_photo_popup_slide" class="close_acc"><i class="fa fa-times" aria-hidden="true"></i></div>
+				<div class="task_heading">
+					<h4><i class="fa fa-suitcase" aria-hidden="true"></i> Create a task</h4>
+					<form>
+						<div class="form_field">
+							<label>Task Name</label>
+							<div id="output3"></div>
+							<select data-placeholder="Choose tags ..." name="tags[]" multiple class="chosen-select">
+								<option value="Engineering">Button Component</option>
+								<option value="Carpentry">Button Component</option>
+								<option value="Plumbing">Button Component</option>
+								<option value="Electical">Button Component</option>
+								<option value="Mechanical">Button Component</option>
+								<option value="HVAC">Button Component</option>
+							</select>
+						</div>
+						<div class="form_field">
+							<label>Task Name</label>
+							<div id="output5"></div>
+							<select data-placeholder="Choose tags ..." name="tags[]" multiple class="chosen-select">
+								<option value="Engineering">Button Component</option>
+								<option value="Carpentry">Button Component</option>
+								<option value="Plumbing">Button Component</option>
+								<option value="Electical">Button Component</option>
+								<option value="Mechanical">Button Component</option>
+								<option value="HVAC">Button Component</option>
+							</select>
+						</div>
+						<div class="form_field">
+							<label>Owner</label>
+							<div class="owner_field">
+								<div class="owner_name">
+									<img src="images/man.png" alt="image">
+									<h5>Scott Osborne</h5>
+								</div>
+								<div class="addmore" id="add_man">
+									<p>+ Add more…</p>
+								</div>
+							</div>
+						</div>
+						<div class="form_field design_work">
+							<label>Tags</label>
+
+							<div id="output6"></div>
+							<select data-placeholder="+ Add more ..." name="tags[]" multiple class="chosen-select">
+								<option value="Engineering">Design</option>
+								<option value="Carpentry">Graphic</option>
+								<option value="Plumbing">HTML</option>
+								<option value="Electical">CSS</option>
+								<option value="Mechanical">Wordpress</option>
+								<option value="HVAC">Php</option>
+							</select>
+						</div>
+
+					</form>
+					<div class="verify_btn">
+						<div class="upload-btn-wrapper color_blue">
+							<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i> Files(x2)</button>
+
+						</div>
+						<div class="upload-btn-wrapper color_pink">
+							<button class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i> Photo</button>
+
+						</div>
+						<div class="upload-btn-wrapper color_green">
+							<button class="btn"><i class="fa fa-file-video-o" aria-hidden="true"></i> Video(x3)</button>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="video_popup_slide">
+		<div class="task_popup">
+			<div class="socil_popup">
+				<div class="social_row">
+					<div id="close_video_popup_slide" class="close_acc"><i class="fa fa-times" aria-hidden="true"></i>
+					</div>
+					<div class="social_col active_dot">
+						<img src="images/insta.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/qicon.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/sc.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/4.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/3.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/6.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/whatsup.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/twish.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/twitter.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/10.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/9.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/8.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/youube.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/slack.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/cat.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/7.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/14.png" alt="image">
+						<span></span>
+					</div>
+					<div class="social_col">
+						<img src="images/13.png" alt="image">
+						<span></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="thinking_man_popup">
+		<div class="account_block">
+			<div id="close_thinking_popup_slide" class="close_acc"><i class="fa fa-times" aria-hidden="true"></i></div>
+			<div class="acount_info">
+				<div class="accunt_iner">
+					<img src="images/acc_icon1.png" alt="icon">
+					<h2>Secure Every Transaction</h2>
+					<p>Your account is protected by Multifactor Authentication using a combination of email, SMS and
+						Google Authenticator.</p>
+				</div>
+				<div class="accunt_iner">
+					<img src="images/acc_icon2.png" alt="icon">
+					<h2>Easiest To Use</h2>
+					<p>You only need 1 account to do all Bitcoin transactions whether it is buying, selling, investing
+						or trading.</p>
+				</div>
+			</div>
+			<div class="account_img">
+				<img src="images/acc_MAN.png" alt="img">
+			</div>
+		</div>
+	</div>
+	
+	
+	<!--Hire Modal  start html -->
+	<div class="modal fade" id="hire_popup_modal" tabindex="-1" role="dialog" aria-labelledby="hire_popup_modal" aria-hidden="true">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<h5 class="modal-title" id="exampleModalLabel">Hire Details</h5>
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			  <span aria-hidden="true">&times;</span>
+			</button>
+		  </div>
+		  <div class="modal-body">
+			<div class="row">
+				<div class="col-sm-12">
+					<div class="col-sm-3">
+						<img src="">
+						<div>
+							<h1>Track Data</h1>
+							<div >JUNE 15 2016</div>
+							<div>For one thing they usually step all over the hedges and plants on the side of someone's</div>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<img src="">
+						<div>
+							<h1>Track Data</h1>
+							<div >JUNE 15 2016</div>
+							<div>For one thing they usually step all over the hedges and plants on the side of someone's</div>
+							<a href="javascript:void(0)">Rean more</a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<img src="">
+						<div>
+							<h1>Track Data</h1>
+							<div >JUNE 15 2016</div>
+							<div>For one thing they usually step all over the hedges and plants on the side of someone's</div>
+							<a href="javascript:void(0)">Rean more</a>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<img src="">
+						<div>
+							<h1>Track Data</h1>
+							<div >JUNE 15 2016</div>
+							
+							<div>For one thing they usually step all over the hedges and plants on the side of someone's</div>
+							<a href="javascript:void(0)">Rean more</a>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="col-sm-12">
+					
+					
+					<div class="crate_task_block" id="google">
+							<div class="task_heading">
+								<h4><i class="fa fa-suitcase" aria-hidden="true"></i> Create a task</h4>
+								<form>
+									<div class="form_field">
+										<label>What brand categories am I willing to auto accept</label>
+										<div id="output"></div>
+										<select data-placeholder="Choose tags ..." name="tags[]" multiple
+											class="chosen-select">
+											<option value="Engineering">Button Component</option>
+											<option value="Carpentry">Button Component</option>
+											<option value="Plumbing">Button Component</option>
+											<option value="Electical">Button Component</option>
+											<option value="Mechanical">Button Component</option>
+											<option value="HVAC">Button Component</option>
+										</select>
+									</div>
+									<div class="form_field">
+										<label>Categories of your content </label>
+										<div class="date_piker">
+											<input type="text" id="datepicker">
+											<i class="fa fa-calendar" aria-hidden="true"></i>
+										</div>
+									</div>
+									<div class="form_field extra_margin">
+										<label>Price for each social mediaa</label>
+										<input type="text">
+									</div>
+									<div class="form_field ">
+										<label>Social media</label>
+										<div class="social_box">
+											<div class="social_left">
+												<input type="text">
+											</div>
+											<div class="social_right">
+												<input type="text">
+											</div>
+										</div>
+										<div class="social_box">
+											<div class="social_left">
+												<input type="text">
+											</div>
+											<div class="social_right">
+												<input type="text">
+											</div>
+										</div>
+										<div class="social_box">
+											<div class="social_left"><input type="text"></div>
+											<div class="social_right"><input type="text"></div>
+										</div>
+									</div>
+									<div class="form_field">
+										<label>What level of brand you wanna show your prices to </label>
+										<label class="control control--checkbox"><b>Any Brand - we make sure that they
+												are brand email check</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												1 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												10 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+										<label class="control control--checkbox"><b>Brands that have already hired over
+												100 influencer in the past</b>
+											<input type="checkbox" checked="checked" />
+											<span class="control__indicator"></span>
+										</label>
+									</div>
+								</form>
+								<div class="verify_btn">
+									<div class="upload-btn-wrapper color_blue">
+										<button class="btn"><i class="fa fa-file-text" aria-hidden="true"></i>
+											Files(x2)</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_pink">
+										<button class="btn"><i class="fa fa-picture-o" aria-hidden="true"></i>
+											Photo</button>
+
+									</div>
+									<div class="upload-btn-wrapper color_green">
+										<button class="btn"><i class="fa fa-file-video-o" aria-hidden="true"></i>
+											Video(x3)</button>
+
+									</div>
+								</div>
+							</div>
+						</div>
+					<!-- faq secton start -->
+					<div class="faq_section_outer">
+					      <h1>F.A.Q</h1>
+					      <div class="faqsub-title">Get answers to the most frequently asked questions.</div>
+							<div class="accordion" id="accordionExample">
+							  <div class="card">
+								<div class="card-header" id="headingOne">
+								  <h2 class="mb-0">
+									<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									  <i class="fa fa-angle-down rotate-icon"></i> Collapsible Group Item #1
+									</button>
+								  </h2>
+								</div>
+
+								<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+								  <div class="card-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								  </div>
+								</div>
+							  </div>
+							  <div class="card">
+								<div class="card-header" id="headingTwo">
+								  <h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									 <i class="fa fa-angle-down rotate-icon"></i>  Collapsible Group Item #2
+									</button>
+								  </h2>
+								</div>
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								  <div class="card-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								  </div>
+								</div>
+							  </div>
+							  <div class="card">
+								<div class="card-header" id="headingThree">
+								  <h2 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									 <i class="fa fa-angle-down rotate-icon"></i>  Collapsible Group Item #3
+									</button>
+								  </h2>
+								</div>
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								  <div class="card-body">
+									Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+								  </div>
+								</div>
+							  </div>
+							</div>
+					
+					</div> <!-- faq section end --->
+					
+					
+				
+				</div>
+			
+			</div>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		  </div>
+		</div>
+	  </div>
+	</div>
+	<!--Hire Modal end html -->
+	
+	
+	
+	
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+	<script src="https://harvesthq.github.io/chosen/chosen.jquery.js"></script>
+
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script src="js/chosen.jquery.min.js"></script>
+	<script src="js/inputEmoji.js"></script>
+	<script src="js/prism.js"></script>
+	<script src="js/init.js"></script>
+	
+	
+	<!-- include bootstrap js cdn -->
+	<script src="//stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	
+	<script>
+		$('.logo_slider').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 9,
+			slidesToScroll: 2,
+			prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+			nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 9,
+						slidesToScroll: 2,
+						infinite: true
+
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 5,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 5,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+
+
+		$('.recomended_slider').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+			nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+			responsive: [
+				{
+					breakpoint: 1024,
+					settings: {
+						slidesToShow: 3,
+						slidesToScroll: 1,
+						infinite: true
+
+					}
+				},
+				{
+					breakpoint: 600,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 2
+					}
+				},
+				{
+					breakpoint: 480,
+					settings: {
+						slidesToShow: 2,
+						slidesToScroll: 1
+					}
+				}
+			]
+		});
+
+
+
+		$('.serch_slider, .multipla_men, .small_gallry_block').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 1,
+			slidesToScroll: 1,
+			prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+			nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+
+		});
+		$('.recomended_slider').slick({
+			dots: false,
+			infinite: false,
+			speed: 300,
+			slidesToShow: 3,
+			slidesToScroll: 1,
+			prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+			nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+
+		});
+		// document.getElementById('output, output1, output2, output3, output4, output5, output6').innerHTML = location.search;
+		$(".chosen-select").chosen();
+
+
+
+	</script>
+	<script>
+		$(document).ready(function () {
+			$("#add_man p").click(function () {
+				$("<div class='owner_name'><img src='images/man.png' alt='image'><h5>Scott Osborne</h5></div>").insertBefore('#add_man');
+			});
+
+			$(".social_row .social_col").click(function () {
+				$(this).addClass('active_dot').siblings().removeClass('active_dot');
+			});
+			$("#file_id, #close_thinking_popup_slide").click(function () {
+				$(".thinking_man_popup").slideToggle();
+			});
+			$("#Photo_id, div#close_photo_popup_slide").click(function () {
+				$("div#Photo_popup_slide").slideToggle();
+			});
+			$("#Video_id, div#close_video_popup_slide").click(function () {
+				$("div#video_popup_slide").slideToggle();
+			});
+
+
+			jQuery(function () {
+				jQuery('.showSingle').click(function (e) {
+					event.preventDefault()
+					jQuery('.targetDiv').hide();
+					jQuery('#div' + $(this).attr('target')).show();
+					$(this).addClass('active_li').siblings().removeClass('active_li');
+				});
+
+			});
+
+			jQuery('.logo_div').on('click', function (e) {
+				e.preventDefault()
+				const _div = $(this).data('div')
+
+				$('.dataDiv').hide()
+				$('.serch_slider, .multipla_men, .small_gallry_block').slick('unslick');
+				jQuery('#' + _div).show();
+
+				// set this setting value in a variable like
+				// const slickSettings = {dots:false, ...}
+				$('.serch_slider, .multipla_men, .small_gallry_block').slick({
+					dots: false,
+					infinite: false,
+					speed: 300,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					prevArrow: '<div class="slick-prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>',
+					nextArrow: '<div class="slick-next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>',
+				});
+			});
+
+			$(".mobile_errow").click(function () {
+				$("section.page_wrapper").toggleClass("slide_left");
+			});
+
+			jQuery(function () {
+				jQuery('.ul_tab li').click(function (e) {
+					event.preventDefault()
+					$(this).addClass('tab_active').siblings().removeClass('tab_active');
+				});
+
+			});
+			jQuery(function () {
+				jQuery('.left_navigation ul li').click(function (e) {
+					event.preventDefault()
+					$(this).addClass('left_li').siblings().removeClass('left_li');
+				});
+
+			});
+
+			$(".crate_btns button").click(function () {
+				$("#clone_div").clone().appendTo(".serch_slider .slick-slide > div");
+			});
+
+
+
+		});
+
+
+		$(function () {
+			$("a.rept").on("click", function () {
+				$("a.rept").removeClass("lftactive");
+				$(this).addClass("lftactive");
+			});
+		});
+	</script>
+	<script>
+		$(function () {
+			$("#datepicker, #datepicker1, #datepicke2").datepicker();
+		});
+	</script>
+	<script type="text/javascript">
+		$(function () {
+		$('.sending').emoji({
+		button: '&#x1F642;',
+		fontSize:'20px'
+		});
+		})
+
+	</script>
+	
+	
+	<style>
+		.faq_section_outer .card-header button:not(.collapsed) .rotate-icon {
+			-webkit-transform: rotate(180deg);
+			transform: rotate(180deg);
+		}
+
+</style>
+	
+	
+	
+</body>
+
+</html>
