@@ -12,6 +12,7 @@
          href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.min.css" />
       <link rel="stylesheet" type="text/css" href="style.css">
       <link rel="stylesheet" type="text/css" href="css/custom-style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
       <style>
          .dataDiv:not(:first-of-type) {
          display: none;
@@ -151,17 +152,16 @@
          width: 100px;
          border-radius: 100px;
          font-size: 14px;
-         margin: 0 5px;
          }
-         .upload-btn-wrapper.color_light_green.btn {
+          .upload-btn-wrapper.color_light_green.btn {
          background-color: #d3f8f0;
          opacity: 1;
          color: #31d3b0;
          }
-        .upload-btn-wrapper.color_blue.btn, .tab-content a.active, .dashboard_slider .active, .first-tab a.active{
-         background-color: #cae2fc !important;
+        .upload-btn-wrapper.color_blue.btn, .tab-content a.active, .dashboard_slider .active{
+         background-color: #cae2fc;
          opacity: 1;
-         color: #2a8bf2 !important;
+         color: #2a8bf2;
          clear: both;
          display: flex;
          align-items: center;
@@ -245,61 +245,6 @@
          max-width: 140px;
          margin: 12px 8px 0;
          }
-
-         /******/
-         /******************/
-#home .form-control{
-  font-size: 16px;
-}
-.dashboard_box_name h4{
-  font-size: 18px;
-}
-.dashboard_box_name p{
-  font-size: 16px;
-  text-transform: uppercase;
-  margin-top: 10px;
-  color: #707c97;
-}
-.dashboard_box_price i{
-  font-size: 18px;
-  font-weight: 
-}
-.dashboard_box_rating .checked{
-  color: #000;
-}
-.dashboard_box_rating .fa {
-    font-size: 16px;
-    letter-spacing: 4px;
-}
-.dashboard_box_rating{
-  margin-top: 20px;
-}
-.dashboard_box_cart .fa{
-  font-size: 32px;
-}
-.dashboard_box_img_bottom{
-  background: #fff;
-  width: 60%;
-  height: 30px;
-  position: absolute;
-  bottom: 0;
-}
-.dashboard_box_img{
-  position: relative;
-}
-.dashboard .slick-prev{
-    position: absolute;
-    top: 20px;
-    right: 0;
-    z-index: 2;
-    font-size: 20px;
-}
-.dashboard .slick-next{
-  position: absolute;
-  top: 20px;
-  z-index: 2;
-  font-size: 20px;
-}
          @media (max-width: 512px){
          .dashboard_com_text p{
          font-size: 14px;
@@ -398,9 +343,9 @@
                   <div class="row">
                      <div class="col-md-12">
                         <!-- Nav pills -->
-                        <ul class="nav first-tab" role="tablist">
+                        <ul class="nav" role="tablist">
                            <li class="nav-item">
-                                    <a class="upload-btn-wrapper color_light_green btn nav-link active" data-toggle="pill" href="#tab1"> Photo</a>                              
+                                    <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#tab1"> Photo</a>                              
                            </li>
                            <li class="nav-item">
                               
@@ -451,68 +396,95 @@
                               <div class="row">
                                  <div class="col-md-12">
                                     <ul class="nav dashboard_slider" role="tablist">
-                                       <li class="nav-item ">
+                                       <div class="test-owl  owl-carousel owl-theme">
+
+                                       <div class="nav-item">
+                                       <li class="active">
                                         
                                                 <a class="upload-btn-wrapper color_pink btn nav-link active" data-toggle="pill" href="#tab1_subtab1"> Files(x2)</a>
                                              
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li >
                                          
                                             
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab2"> Photo</a>
                                             
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li>
                                           
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab3"> Photo</a>
                                             
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li>
                                          
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab4"> Photo</a>
                                              
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li >
                                          
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab4"> Photo</a>
                                             
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li>
                                         
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab5"> Photo</a>
                                              
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li>
                                        
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab6"> Photo</a>
                                             
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li>
                                          
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab7"> Photo</a>
                                             
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li>
                                          
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab8"> Photo</a>
                                            
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li >
                                          
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab9"> Photo</a>
                                             
                                           
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li>
                                           
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab10"> Photo</a>
                                             
                                        </li>
-                                       <li class="nav-item">
+                                       </div>
+                                       <div class="nav-item">
+                                       <li>
                                          
                                                 <a class="upload-btn-wrapper color_pink btn nav-link" data-toggle="pill" href="#tab1_subtab11"> Photo</a>
                                            
                                        </li>
+                                       </div>
+                                       </div>
                                     </ul>
                                  </div>
                               </div>
@@ -1173,7 +1145,7 @@
                                     <ul class="nav dashboard_slider" role="tablist">
                                        <li class="nav-item ">
                                           
-                                                <a class="upload-btn-wrapper color_pink btn nav-link active" data-toggle="pill" href="#tab2_subtab1"> Files(x2)</a>
+                                                <a class="btn nav-link active" data-toggle="pill" href="#tab2_subtab1"> Files(x2)</a>
                                              
                                        </li>
                                        <li class="nav-item">
@@ -1248,7 +1220,7 @@
                                           <ul class="nav dashboard_slider" role="tablist">
                                              <li class="nav-item">
                                                
-                                                      <a class="upload-btn-wrapper color_light_green btn nav-link active" data-toggle="pill" href="#tab2_subtab1_grand1"> Photo</a>
+                                                      <a class="btn nav-link active" data-toggle="pill" href="#tab2_subtab1_grand1"> Photo</a>
                                                   
                                              </li>
                                              <li class="nav-item">
@@ -1901,7 +1873,7 @@
                         <ul class="nav dashboard_slider" role="tablist">
                            <li class="nav-item">
                               
-                                    <a class="upload-btn-wrapper color_pink btn nav-link active" data-toggle="pill" href="#dashboard_box"> Files(x2)</a>
+                                    <a class="btn nav-link active" data-toggle="pill" href="#dashboard_box"> Files(x2)</a>
                                  
                            </li>
                            <li class="nav-item">
@@ -2150,432 +2122,8 @@
                                  </div>
                               </div>
                            </div>
-
-                           <div id="dashboard_photo_tag_2" class="tab-pane">
-                              <div class="row">
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Blanko</h4>
-                                          <p>Side Table</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Momo</h4>
-                                          <p>Shelves</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Penemille</h4>
-                                          <p>Chair</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Kappu</h4>
-                                          <p>Shelves</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
                         </div>
                      </div>
-
-
-
-
-
-
-                     <div id="dashboard_box_2" class="tab-pane">
-                        <br>
-                        <div class="dashboard_filter border-top border-bottom">
-                           <a href="#">Filter</a>
-                           <a href="#">Sort:default</a>
-                           <a href="#" class="float-right m-0">Rating details</a>
-                        </div>
-                        <div class="row mt-5">
-                           <div class="col-md-12">
-                              <ul class="nav dashboard_slider" role="tablist">
-                                 <li class="nav-item">
-                                    
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link active" data-toggle="pill" href="#dashboard_box2_tag1"> Photo</a>
-                                      
-                                 </li>
-                                 <li class="nav-item">
-                                    
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag2"> Photo</a>
-                                       
-                                 </li>
-                                 <li class="nav-item">
-                                   
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag3"> Photo</a>
-                                       
-                                 </li>
-                                 <li class="nav-item">
-                                   
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag4"> Photo</a>
-                                      
-                                 </li>
-                                 <li class="nav-item">
-                                   
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag5"> Photo</a>
-                                     
-                                 </li>
-                                 <li class="nav-item">
-                                    
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag6"> Photo</a>
-                                      
-                                 </li>
-                                 <li class="nav-item">
-                                   
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag7"> Photo</a>
-                                      
-                                 </li>
-                                 <li class="nav-item">
-                                   
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag8"> Photo</a>
-                                      
-                                 </li>
-                                 <li class="nav-item">
-                                 
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag9"> Photo</a>
-                                      
-                                 </li>
-                                 <li class="nav-item">
-                                   
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag10"> Photo</a>
-                                      
-                                 </li>
-                                 <li class="nav-item">
-                                 
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag11"> Photo</a>
-                                       
-                                 </li>
-                                 <li class="nav-item">
-                                  
-                                          <a class="upload-btn-wrapper color_light_green btn nav-link" data-toggle="pill" href="#dashboard_box2_tag12"> Photo</a>
-                                      
-                                 </li>
-                              </ul>
-                           </div>
-                        </div>
-                        <div class="tab-content mt-3">
-                           <div id="dashboard_box2_tag1" class="tab-pane active">
-                              <div class="row">
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Blanko</h4>
-                                          <p>Side Table</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Momo</h4>
-                                          <p>Shelves</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Penemille</h4>
-                                          <p>Chair</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Kappu</h4>
-                                          <p>Shelves</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div id="dashboard_box2_tag2" class="tab-pane active">
-                              <div class="row">
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Blanko</h4>
-                                          <p>Side Table</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Momo</h4>
-                                          <p>Shelves</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Penemille</h4>
-                                          <p>Chair</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col-md-3 mt-5">
-                                    <div class="dashboard_box_img">
-                                       <img src="images/livingroom.jpg" width="100%">
-                                       <div class="dashboard_box_img_bottom"> </div>
-                                    </div>
-                                    <div class="">
-                                       <div class="dashboard_box_name d-inline-block">
-                                          <h4>Kappu</h4>
-                                          <p>Shelves</p>
-                                       </div>
-                                       <div class="dashboard_box_price d-inline-block float-right mt-4">
-                                          <i class="fa fa-dollar"> 90</i>
-                                       </div>
-                                    </div>
-                                    <div class="mt-5">
-                                       <div class="dashboard_box_rating d-inline-block">
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star checked"></span>
-                                          <span class="fa fa-star unchecked"></span>
-                                       </div>
-                                       <div class="dashboard_box_cart d-inline-block float-right">
-                                          <i class="fa fa-cart-plus"></i>
-                                       </div>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-
-
-
-
-
                   </div>
                   <div class="slide_info targetDiv" id="div2" style="display: none;">
                      <div class="email_upload">
@@ -5224,7 +4772,7 @@
                                  <div class="col-md-12">
                                     <div class="verify_btn mx-auto">
                                        <div class="upload-btn-wrapper color_green">
-                                          <button class="btn"><i class="fa fa-file-video-o" aria-hidden="true"></i>
+                                          <button class="upload-btn-wrapper color_green btn"><i class="fa fa-file-video-o" aria-hidden="true"></i>
                                           Video(x3)</button> 
                                        </div>
                                        <div class="upload-btn-wrapper color_pink">
@@ -5848,6 +5396,10 @@
          $(".chosen-select").chosen();
          
       </script>
+
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
       <script>
          $(document).ready(function () {
           $("#add_man p").click(function () {
@@ -5993,6 +5545,46 @@
          //   $('.dashboard_slider').slick('setPosition');
          // })
 
+
+
+
+         $(' .test-owl').owlCarousel({
+             loop:false,
+             margin:2,   
+             responsiveClass:true,
+             autoplay:false,
+             slideSpeed: 400,
+             paginationSpeed: 400,
+             responsive:{
+                 0:{
+                     items:3,
+                     nav:true,
+                     loop:false
+                 },
+                 600:{
+                     items:3,
+                     nav:true,
+                       loop:false
+                 },
+                 1200:{
+                     items:8,
+                     nav:true,
+                       loop:false
+                 },
+                 1400:{
+                     items:10,
+                     nav:true,
+                     loop:false
+                 }
+             }
+         })
+
+         $(document) .ready(function(){
+         var li =  $(".owl-item li ");
+         $(".owl-item li").click(function(){
+         li.removeClass('active');
+         });
+         });
          
       </script>
    </body>
